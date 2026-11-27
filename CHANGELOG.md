@@ -10,6 +10,8 @@ Histórico resumido das alterações ao projeto.
   e os próximos passos do projeto.
 - IDEAS.md com propostas de evolução para avaliar.
 - CHANGELOG.md para acompanhar as alterações.
+- CLAUDE.md com instruções de aprendizagem, desenvolvimento,
+  validação e atualização da documentação.
 
 ### Clarificado
 
@@ -23,6 +25,3 @@ Histórico resumido das alterações ao projeto.
 - README.md com o objetivo, âmbito e estado do repositório.
 - Definida uma primeira entrega em Python e um exemplo
   para verificar os cálculos.
-
-  - CLAUDE.md com instruções de aprendizagem, desenvolvimento,
-  validação e atualização da documentação.
