@@ -80,3 +80,14 @@ Invalid or missing values must be reported clearly.
 - [Ideas](IDEAS.md) — Possible improvements to evaluate.
 - [Changelog](CHANGELOG.md) — History of project changes.
 - [Claude instructions](CLAUDE.md) — Project instructions for Claude Code.
+
+## Technical Documentation
+
+Initial documentation based on Excel v11.3.
+Formula audits and functional validation remain pending.
+
+- [Methodology](docs/METODOLOGIA.md)
+- [Metrics](docs/METRICAS.md)
+- [Asset Classification](docs/CLASSIFICACAO_ATIVOS.md)
+- [Stress Testing](docs/STRESS_TEST.md)
+- [Alerts and Controls](docs/ALERTAS.md)

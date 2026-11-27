@@ -12,6 +12,9 @@ Histórico resumido das alterações ao projeto.
 - CHANGELOG.md para acompanhar as alterações.
 - CLAUDE.md com instruções de aprendizagem, desenvolvimento,
   validação e atualização da documentação.
+  - Documentação técnica inicial em docs/: metodologia, métricas,
+  classificação de ativos, stress test e alertas.
+- Registadas verificações pendentes de fórmulas e testes funcionais.
 
 ### Clarificado
 
