@@ -73,3 +73,9 @@ Invalid or missing values must be reported clearly.
 - Document assumptions and limitations.
 - Use fictional data for development and demonstrations.
 - Keep client information and credentials out of the repository.
+
+## Project Documentation
+
+- [Roadmap](ROADMAP.md) — Existing Excel features and planned development.
+- [Ideas](IDEAS.md) — Possible improvements to evaluate.
+- [Changelog](CHANGELOG.md) — History of project changes.
