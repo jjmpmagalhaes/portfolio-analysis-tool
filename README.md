@@ -1,93 +1,75 @@
 # Portfolio Analysis Tool
 
-A portfolio analysis project designed to support wealth management
-workflows and develop practical skills in financial data analysis,
-Python and software development.
+A portfolio analysis project supporting wealth management workflows
+and practical learning in financial analysis and software development.
 
-## Objective
+## Current Priority
 
-Evolve an existing Excel-based portfolio diagnostic workflow into
-a reliable, documented and reproducible analytical tool.
+Consolidate and validate the existing Excel tool before developing
+the extended executive report.
 
-## Current Status
+Excel v11.3 is the documented functional reference.
+Existing functionality must be distinguished from verified functionality.
 
-Early development.
+The repository contains initial documentation.
+Formula audits and functional tests remain pending.
 
-This repository currently contains project documentation.
-The Python implementation has not started.
+## Existing Excel Functionality
 
-The existing Excel workflow provides the functional reference
-for the project's development.
-
-## Functional Scope
-
-The project will progressively cover:
-
-- Portfolio characterization and asset allocation.
+- Portfolio import, treatment and reconciliation.
+- Financial instrument and asset class classification.
 - Position weights and concentration analysis.
-- Data validation and unidentified asset alerts.
+- Fund and ETF exposure analysis.
 - Editable stress scenarios.
-- Clear portfolio summaries and reports.
+- Bond metrics and payment schedules.
+- Validation alerts and an A4 summary report.
 
-Financial instrument type and asset class will be treated as
-separate dimensions.
+## Next Milestone
 
-## First Milestone
+Prepare and execute TC01 from the validation plan using
+a clean reference workbook and fictional portfolio data.
 
-Build a small Python program that:
+Record the expected and observed results, recalculation method,
+evidence and any discrepancies.
 
-1. Reads a CSV file containing a fictional portfolio.
-2. Checks that required fields and numeric values are valid.
-3. Calculates total portfolio value.
-4. Calculates the weight of each position.
-5. Identifies the largest position.
-6. Displays a clear summary.
+Then validate the remaining core calculations progressively.
 
-For this first milestone, position values will be provided in EUR.
+## Development Direction
 
-### Validation Example
-
-A portfolio containing positions worth EUR 6,000, EUR 3,000
-and EUR 1,000 must produce:
-
-- Total value: EUR 10,000.
-- Position weights: 60%, 30% and 10%.
-- Largest position: EUR 6,000, representing 60%.
-
-Invalid or missing values must be reported clearly.
-
-## Development Roadmap
-
-1. CSV import and basic calculations.
-2. Asset classification and allocation analysis.
-3. Concentration indicators and validation alerts.
-4. Editable stress testing.
-5. Charts and report generation.
-6. A user interface, if useful.
+1. Consolidate and validate the Excel tool.
+2. Configure the extended executive report from verified results.
+3. Evaluate further automation, Python and a user interface.
 
 ## Working Principles
 
-- Develop one small feature at a time.
-- Keep financial calculations explicit and verifiable.
-- Check results against examples with known answers.
-- Document assumptions and limitations.
-- Use fictional data for development and demonstrations.
+- Make small, reviewable changes.
+- Keep calculations explicit and reproducible.
+- Distinguish missing information from confirmed zero.
+- Record sources, dates, assumptions and limitations.
+- Mark tests as passed only after execution and review.
+- Use fictional data in repository examples and tests.
 - Keep client information and credentials out of the repository.
 
 ## Project Documentation
 
-- [Roadmap](ROADMAP.md) — Existing Excel features and planned development.
-- [Ideas](IDEAS.md) — Possible improvements to evaluate.
-- [Changelog](CHANGELOG.md) — History of project changes.
-- [Claude instructions](CLAUDE.md) — Project instructions for Claude Code.
+- [Roadmap](ROADMAP.md)
+- [Ideas](IDEAS.md)
+- [Changelog](CHANGELOG.md)
+- [Claude instructions](CLAUDE.md)
+
+## Product and Validation
+
+- [Product definition](DOCS/PRODUTO.md)
+- [Data dictionary](DOCS/DICIONARIO_DADOS.md)
+- [Validation plan](DOCS/PLANO_VALIDACAO.md)
 
 ## Technical Documentation
 
 Initial documentation based on Excel v11.3.
-Formula audits and functional validation remain pending.
+Implementation checks and functional validation remain pending.
 
-- [Methodology](docs/METODOLOGIA.md)
-- [Metrics](docs/METRICAS.md)
-- [Asset Classification](docs/CLASSIFICACAO_ATIVOS.md)
-- [Stress Testing](docs/STRESS_TEST.md)
-- [Alerts and Controls](docs/ALERTAS.md)
+- [Methodology](DOCS/METODOLOGIA.md)
+- [Metrics](DOCS/METRICAS.md)
+- [Asset Classification](DOCS/CLASSIFICACAO_ATIVOS.md)
+- [Stress Testing](DOCS/STRESS_TEST.md)
+- [Alerts and Controls](DOCS/ALERTAS.md)

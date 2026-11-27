@@ -59,3 +59,20 @@
 - Usa dados fictícios nos exemplos e testes do repositório.
 - Mantém dados de clientes e credenciais fora do repositório.
 - Resume os ficheiros alterados e sugere uma mensagem de commit.
+
+## Prioridade atual e documentação de referência
+
+- A prioridade é consolidar e validar o Excel existente.
+- O relatório executivo será desenvolvido numa fase seguinte.
+- Python é uma possibilidade futura, não a primeira entrega atual.
+- Consulta DOCS/PRODUTO.md para compreender o âmbito.
+- Consulta DOCS/DICIONARIO_DADOS.md antes de alterar a estrutura
+  ou o preenchimento dos dados.
+- Consulta DOCS/PLANO_VALIDACAO.md para preparar e executar testes.
+- Consulta os documentos técnicos relevantes da pasta DOCS
+  antes de alterar cálculos, classificação, stress ou alertas.
+- Respeita a grafia dos caminhos: a pasta chama-se DOCS.
+- Distingue regras documentadas, hipóteses e comportamento verificado.
+- Regista os resultados observados e a confirmação do recálculo.
+- Um plano escrito ou uma conta de referência conferida
+  não equivale a um teste executado no Excel.
