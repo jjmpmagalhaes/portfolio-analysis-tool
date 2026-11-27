@@ -23,3 +23,6 @@ Histórico resumido das alterações ao projeto.
 - README.md com o objetivo, âmbito e estado do repositório.
 - Definida uma primeira entrega em Python e um exemplo
   para verificar os cálculos.
+
+  - CLAUDE.md com instruções de aprendizagem, desenvolvimento,
+  validação e atualização da documentação.

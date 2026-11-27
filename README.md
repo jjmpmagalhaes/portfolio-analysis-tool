@@ -79,3 +79,4 @@ Invalid or missing values must be reported clearly.
 - [Roadmap](ROADMAP.md) — Existing Excel features and planned development.
 - [Ideas](IDEAS.md) — Possible improvements to evaluate.
 - [Changelog](CHANGELOG.md) — History of project changes.
+- [Claude instructions](CLAUDE.md) — Project instructions for Claude Code.
